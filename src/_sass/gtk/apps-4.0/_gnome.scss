@@ -10,7 +10,7 @@ $header-icon: if($titlebar =='dark' and $variant =='light',
 #NautilusFileChooser,
 .nautilus-window {
   .sidebar-pane {
-    background-image: $theme_image;
+    background-image: none;
     background-size: 48px auto;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ $header-icon: if($titlebar =='dark' and $variant =='light',
 
     headerbar {
       background-color: transparent;
-      background-image: $header-icon;
+      background-image: none;
       background-size: 48px auto;
       background-position: left bottom;
       background-repeat: no-repeat;
@@ -190,7 +190,7 @@ $header-icon: if($titlebar =='dark' and $variant =='light',
   #NautilusPathBar {
     border-radius: $circular_radius;
     padding: 0;
-    background-image: $theme_image;
+    background-image: none;
     background-size: auto auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ $header-icon: if($titlebar =='dark' and $variant =='light',
     // Ensure paned separator rendering. See issue #84 for details.
     min-width: 20px;
     color: transparent;
-    background-image: url("assets/scalable/side-paned.svg");
+    background-image: none;
     background-size: 20px 750px;
     background-position: left center;
     background-repeat: no-repeat;

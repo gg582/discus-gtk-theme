@@ -49,7 +49,7 @@
 $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color, $titlebar_bg_color);
 
 .nautilus-window {
-  background-image: $theme_image;
+  background-image: none;
   background-size: 48px auto;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
 
   headerbar {
     background-color: if($solid == 'false', rgba($titlebar_bg_color, 0.97), $titlebar_bg_color);
-    background-image: $header-icon;
+    background-image: none;
     background-size: 48px auto;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
     > revealer > button { @extend %circular_button; } // Make operations button circular
 
     .path-bar-box { // Fixed nautilus 3.30 pathbar
-      background-image: $theme_image;
+      background-image: none;
       background-size: auto auto;
       background-position: center center;
       background-repeat: no-repeat;
@@ -212,7 +212,7 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
   .windowhandle .linked.nautilus-path-bar {
     border-radius: $circular_radius;
     margin: $container_padding;
-    background-image: $theme_image;
+    background-image: none;
     background-size: auto auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
   paned > separator { // Ensure paned separator rendering. See issue #84 for details.
     min-width: 20px;
     color: transparent;
-    background-image: url("assets/scalable/side-paned.svg");
+    background-image: none;
     background-size: 20px 750px;
     background-position: left center;
     background-repeat: no-repeat;
