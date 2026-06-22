@@ -69,7 +69,7 @@
     <linearGradient
        id="color-accent">
       <stop
-         stop-color="#7C4DFF"
+         stop-color="#111116"
          id="stop15" />
     </linearGradient>
     <linearGradient
@@ -296,11 +296,11 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(3.7795276,0,0,3.7795276,-146.99335,-222.29311)">
       <stop
-         stop-color="#716ffb"
+         stop-color="#35c46f"
          offset="0"
          id="stop2" />
       <stop
-         stop-color="#6c6af2"
+         stop-color="#2dbb66"
          offset="1"
          id="stop4" />
     </linearGradient>

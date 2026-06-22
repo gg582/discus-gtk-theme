@@ -227,6 +227,18 @@ uninstall_link() {
   rm -rf "${HOME}/.config/gtk-4.0"/{assets,gtk.css,gtk-dark.css}
 }
 
+set_gnome_accent() {
+  if command -v gsettings > /dev/null; then
+    local schema='org.gnome.desktop.interface'
+    local key='accent-color'
+
+    if gsettings writable "${schema}" "${key}" > /dev/null 2>&1; then
+      echo -e "\nSet GNOME accent color to teal for Settings/libadwaita..."
+      gsettings set "${schema}" "${key}" 'teal'
+    fi
+  fi
+}
+
 link_libadwaita() {
   local dest=${1}
   local name=${2}
@@ -318,7 +330,7 @@ if [[ "${remove:-}" != 'true' ]]; then
   install_theme
 
   if [[ "$libadwaita" == 'true' ]]; then
-    uninstall_link && link_theme
+    uninstall_link && link_theme && set_gnome_accent
   fi
 else
   if [[ "$libadwaita" == 'true' ]]; then

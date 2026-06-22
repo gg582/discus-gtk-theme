@@ -1,7 +1,7 @@
 // Named Colors
 
 // base colors
-$_base_color_dark: desaturate($dark_4, 100%);
+$_base_color_dark: $dark_4;
 $_base_color_light: desaturate($light_2, 100%);
 
 // colors for destructive elements

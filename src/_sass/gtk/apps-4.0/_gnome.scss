@@ -418,16 +418,16 @@ button.card.category-tile {
 
   // Styling for specific category buttons.
   &.category-create {
-    background: linear-gradient(180deg, #ce8cd7 0%, #2861c6 100%);
+    background: linear-gradient(180deg, #8de6b1 0%, #29ae74 100%);
     color: white;
 
     &:hover {
-      background: linear-gradient(180deg, shade(#ce8cd7, 1.07) 0%, shade(#2861c6, 1.1) 100%);
+      background: linear-gradient(180deg, shade(#8de6b1, 1.07) 0%, shade(#29ae74, 1.1) 100%);
       color: white;
     }
 
     &:active {
-      background: linear-gradient(180deg, shade(#ce8cd7, .95) 0%, shade(#2861c6, .95) 100%);
+      background: linear-gradient(180deg, shade(#8de6b1, .95) 0%, shade(#29ae74, .95) 100%);
       color: white;
     }
   }
@@ -463,30 +463,30 @@ button.card.category-tile {
   }
 
   &.category-play {
-    background: linear-gradient(75deg, #f9e2a7 0%, #eb5ec3 50%, #6d53e0 100%);
-    color: #393484;
+    background: linear-gradient(75deg, #f9e2a7 0%, #8de6b1 50%, #29ae74 100%);
+    color: #145232;
 
     &:hover {
-      background: linear-gradient(75deg, shade(#f9e2a7, 1.07) 0%, shade(#eb5ec3, 1.07) 50%, shade(#6d53e0, 1.07) 100%);
-      color: #393484;
+      background: linear-gradient(75deg, shade(#f9e2a7, 1.07) 0%, shade(#8de6b1, 1.07) 50%, shade(#29ae74, 1.07) 100%);
+      color: #145232;
     }
 
     &:active {
-      background: linear-gradient(75deg, shade(#f9e2a7, .97) 0%, shade(#eb5ec3, .95) 50%, shade(#6d53e0, 1.07) 100%);
-      color: #393484;
+      background: linear-gradient(75deg, shade(#f9e2a7, .97) 0%, shade(#8de6b1, .95) 50%, shade(#29ae74, 1.07) 100%);
+      color: #145232;
     }
   }
 
   &.category-socialize {
-    background: linear-gradient(90deg, #ef4e9b 0%, #f77466 100%);
+    background: linear-gradient(90deg, #57e389 0%, #2ec27e 100%);
     color: $secondary_fg_color;
 
     &:hover {
-      background: linear-gradient(90deg, shade(#ef4e9b, 1.08) 0%, shade(#f77466, 1.08) 100%);
+      background: linear-gradient(90deg, shade(#57e389, 1.08) 0%, shade(#2ec27e, 1.08) 100%);
     }
 
     &:active {
-      background: linear-gradient(90deg, shade(#ef4e9b, .95) 0%, shade(#f77466, .95) 100%);
+      background: linear-gradient(90deg, shade(#57e389, .95) 0%, shade(#2ec27e, .95) 100%);
     }
   }
 
@@ -1061,11 +1061,11 @@ preferencesgroup button.accent-button {
   }
 
   &.pink {
-    --accent-bg-color: var(--accent-pink);
+    --accent-bg-color: var(--accent-teal);
   }
 
   &.purple {
-    --accent-bg-color: var(--accent-purple);
+    --accent-bg-color: var(--accent-teal);
   }
 
   &.slate {

@@ -21,7 +21,7 @@
 
 // Function to mix the color and make the focus background
 @function focus_bg_color($bg, $fc:$focus_color) {
-  @return mix($fc, $bg, 5%);
+  @return desaturate(mix($fc, $bg, 5%), 100%);
 }
 
 //
