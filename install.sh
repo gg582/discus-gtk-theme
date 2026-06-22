@@ -18,7 +18,7 @@ fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-THEME_NAME=Layan
+THEME_NAME=Layan-discus
 COLOR_VARIANTS=('' '-Light' '-Dark')
 SOLID_VARIANTS=('' '-Solid')
 

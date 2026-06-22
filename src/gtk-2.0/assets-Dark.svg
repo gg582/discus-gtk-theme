@@ -87,19 +87,19 @@
     <linearGradient
        id="color-primary">
       <stop
-         stop-color="#111116"
+         stop-color="#4A7C8C"
          id="stop23" />
     </linearGradient>
     <linearGradient
        id="color-accent">
       <stop
-         stop-color="#111116"
+         stop-color="#4A7C8C"
          id="stop26" />
     </linearGradient>
     <linearGradient
        id="color-accent-insensitive">
       <stop
-         stop-color="#111116"
+         stop-color="#4A7C8C"
          stop-opacity="0.5"
          id="stop29" />
     </linearGradient>
