@@ -1006,6 +1006,7 @@ preferencesgroup button.accent-button {
   min-width: 24px;
   padding: $base_padding / 2;
   border-radius: $circular_radius;
+  --accent-bg-color: var(--accent-teal);
   background: var(--accent-bg-color);
   outline: none;
   background-clip: content-box;
@@ -1030,46 +1031,8 @@ preferencesgroup button.accent-button {
   &.yellow,
   &.orange,
   &.red,
-  &.pink,
-  &.purple,
   &.slate {
     --accent-color: oklab(from var(--accent-bg-color) var(--standalone-color-oklab));
-  }
-
-  &.blue {
-    --accent-bg-color: var(--accent-blue);
-  }
-
-  &.teal {
-    --accent-bg-color: var(--accent-teal);
-  }
-
-  &.green {
-    --accent-bg-color: var(--accent-green);
-  }
-
-  &.yellow {
-    --accent-bg-color: var(--accent-yellow);
-  }
-
-  &.orange {
-    --accent-bg-color: var(--accent-orange);
-  }
-
-  &.red {
-    --accent-bg-color: var(--accent-red);
-  }
-
-  &.pink {
-    --accent-bg-color: var(--accent-teal);
-  }
-
-  &.purple {
-    --accent-bg-color: var(--accent-teal);
-  }
-
-  &.slate {
-    --accent-bg-color: var(--accent-slate);
   }
 }
 
