@@ -1,6 +1,8 @@
 ## Layan-gtk-theme
 
-![1](https://images.pling.com/img/00/00/32/24/44/1309214/7a86d212835c855e62ca9725c0031e6202ae.jpg)
+![1](screenshot-1.png)
+
+![2](screenshot-2.png)
 
 Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.
 
